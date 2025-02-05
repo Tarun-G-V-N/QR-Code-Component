@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "lightFont";
+    src: url(Fonts/Outfit-Regular.ttf);
+}
+
+@font-face{
+    font-family: "BoldFont";
+    src: url(Fonts/Outfit-Bold.ttf);
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+div{
+    margin-top: 7%;
+    margin-left: 40%;
+    background-color: white;
+    height: 425px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div img{
+    margin-top: 7%;
+    height: 220px;
+    border-radius: 20px;
+}
+div h3 {
+    font-family: "BoldFont";
+    font-size: large;
+    padding: 10px;
+}
+div p{
+    font-family: "lightFont";
+    font-size: medium;
+    padding: 5px;
+    color: hsl(120, 3%, 55%);
+    margin-top: -10px;
+}
